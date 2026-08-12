@@ -1,0 +1,10 @@
+name: opencvenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - opencv
+  - numpy
+  - pip
+  - pip:
+    - opencv-python
